@@ -37,13 +37,14 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref, onBeforeUnmount } from 'vue'
+import { onMounted, ref, onBeforeUnmount, defineAsyncComponent } from 'vue'
 import EmojiBackground from '../../components/EmojiBackground/index.vue'
 import { RiGithubLine } from '@remixicon/vue'
 import { useRouter } from 'vitepress'
-import { Vue3Lottie } from 'vue3-lottie'
+// import { Vue3Lottie } from 'vue3-lottie'
 import lottieData from '../../assets/dora.json'
 
+const Vue3Lottie = defineAsyncComponent(() => import('vue3-lottie'))
 const returnToTopRef = ref<HTMLElement | null>(null)
 
 const router = useRouter()
