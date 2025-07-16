@@ -2,7 +2,9 @@
   <div class="home flex h-screen w-screen items-center justify-center">
     <EmojiBackground />
     <div class="-mt-10 flex w-screen animate-scale-in-center flex-col px-4 sm:-mt-40 sm:w-[626px]">
-      <Vue3Lottie :animationData="lottieData" class="w-full sm:w-[626px]" />
+      <ClientOnly>
+        <Vue3Lottie :animationData="lottieData" class="w-full sm:w-[626px]" />
+      </ClientOnly>
       <div
         class="relative mt-6 flex w-full flex-col items-center rounded-lg bg-white/85 py-6 text-zinc-800 shadow shadow-black/40 backdrop-blur-sm"
       >
@@ -46,7 +48,7 @@ const returnToTopRef = ref<HTMLElement | null>(null)
 
 const router = useRouter()
 const gotoGithub = () => {
-  window.open('https://github.com/zbwer')
+  window.open('https://github.com/fangzhuom')
 }
 
 onMounted(() => {
