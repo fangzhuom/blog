@@ -9,14 +9,14 @@
         <div class="text-2xl font-bold sm:text-3xl">
           <span class="shake-hand inline-block">👋</span> Hi, I am
           <span class="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent"
-            >Bowen Zhang</span
+            >七八书</span
           >.
         </div>
-        <p class="mt-2 text-base sm:text-lg">UESTC / Cat Cult / Front-End Developer</p>
-        <p class="mt-1 text-black/50">“地球其实只是一个柯基的屁股”</p>
+        <p class="mt-2 text-base sm:text-lg">NNU / OpenGMS / Front-End Developer</p>
+        <p class="mt-1 text-black/50">“再疲倦的生活总要有些温柔的梦”</p>
         <div class="mt-4 flex gap-4">
           <div
-            @click="router.go('/Notes/')"
+            @click="router.go('/AboutMe/')"
             class="button relative w-fit cursor-pointer rounded-full bg-white active:scale-95"
           >
             🎉 Welcome

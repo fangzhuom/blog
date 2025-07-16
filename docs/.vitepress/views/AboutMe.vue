@@ -15,26 +15,26 @@
           style="top: 32%"
           class="tag-bounce absolute hidden rounded-full px-3 py-0.5 text-sm font-bold shadow-[0px_0px_1px_1px#eee] sm:left-[69%] sm:block md:left-[66%] lg:left-[63%] xl:left-[60%]"
         >
-          🎵 二进制吟游诗人
+          🎵 不知名歌唱艺术家
         </p>
         <p
           style="top: 50%"
           class="tag-bounce absolute hidden rounded-full px-3 py-0.5 text-sm font-bold shadow-[0px_0px_1px_1px#eee] sm:left-[69%] sm:block md:left-[66%] lg:left-[63%] xl:left-[60%]"
         >
-          绿茵场最佳气氛组⚽
+          撸铁气氛组🏋️‍♂️
         </p>
         <!-- Left-tags -->
         <p
           style="top: 32%"
           class="tag-bounce absolute hidden rounded-full px-3 py-0.5 text-sm font-bold shadow-[0px_0px_1px_1px#eee] sm:left-[8%] sm:block md:left-[13%] lg:left-[21%] xl:left-[27%]"
         >
-          🌙 倒头就睡懒羊羊
+          ✨ 懂点GIS的前端开发
         </p>
         <p
           style="top: 50%"
           class="tag-bounce absolute hidden rounded-full px-3 py-0.5 text-sm font-bold shadow-[0px_0px_1px_1px#eee] sm:left-[8%] sm:block md:left-[13%] lg:left-[21%] xl:left-[27%]"
         >
-          宇宙无敌暴龙战士🚀
+          美食不能辜负 🍜
         </p>
       </div>
       <!-- 概述与箴言 -->
@@ -45,27 +45,24 @@
             class="flex w-full flex-col justify-center rounded-xl border bg-gradient-to-r from-sky-400 to-teal-400 px-8 py-4 text-white dark:border-slate-900 dark:from-sky-700 dark:to-teal-600 md:w-[59%]"
           >
             <p class="text-lg text-slate-50">你好，很高兴认识你 👋</p>
-            <h1 class="text-2xl font-bold lg:break-normal lg:break-words xl:text-3xl">
-              A Chinese undergraduate From UESTC
+            <h1 class="text-xl font-bold lg:break-normal lg:break-words xl:text-3xl">
+              ✨Coding & Exploring —— Still on the road.
             </h1>
-            <p class="text-slate-100">前端开发 / 产品设计 / 足球 🔥</p>
+            <p class="text-slate-100">前端开发 / GIS / music 🔥</p>
           </div>
           <!-- 箴言 -->
           <div
             class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[39%]"
           >
-            <p class="text-[12px]">箴言</p>
+            <p class="text-[12px]">💬箴言</p>
             <div>
-              <h1 class="text-3xl leading-9">
+              <h1 class="text-2xl leading-9">
                 <span class="hidden font-bold text-teal-400 md:inline-block">Miracle&nbsp; </span>
                 <span class="hidden lg:inline-block"> Is Everywhere</span>
               </h1>
               <h1 class="font-serif text-3xl tracking-widest md:text-2xl lg:text-3xl">
-                纵有<span class="font-bold text-sky-500">狂风</span>拔地起
-              </h1>
-              <h1 class="text-2xl leading-9 md:text-3xl">
-                <span class="inline-block font-bold text-teal-400 md:hidden">Miracle&nbsp; </span>
-                <span class="inline-block lg:hidden">Is Everywhere</span>
+                <span class="font-bold text-sky-500">为者</span>常成
+                <span class="font-bold text-teal-400">行者</span>常至
               </h1>
             </div>
           </div>
@@ -77,11 +74,16 @@
         <div
           class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[35%]"
         >
-          <p class="text-[12px]">简介</p>
-          <div class="mt-2">
-            <h1 class="text-xl">主修计算机科学与技术</h1>
-            <h1 class="text-xl">辅修<span class="text-pink-500">猫娘行为学</span></h1>
-            <h1 class="text-xl md:text-base lg:text-xl">梦想是做程序员烧烤领袖</h1>
+          <p class="text-[12px]">🏷️简介</p>
+          <div class="mt-2 text-center">
+            <h1 class="text-xl">
+              💻一个热爱<span class="font-bold text-sky-400">前端</span>的<span
+                class="font-bold text-pink-400"
+                >GISer</span
+              >
+            </h1>
+            <h1 class="text-xl md:text-base lg:text-xl">👨‍🎓Master's degree in progress.</h1>
+            <h1 class="text-l mt-1">未完待续...</h1>
             <p></p>
           </div>
         </div>
@@ -123,20 +125,12 @@
               <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-yellow-200 p-4">
                 <img class="rounded-lg" src="./img/pinia.svg" alt="" />
               </div>
-              <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-gray-100 p-4">
-                <img class="rounded-lg" src="./img/nextjs.svg" alt="" />
-              </div>
               <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-green-100 p-4">
-                <img class="rounded-lg" src="./img/nuxt.png" alt="" />
+                <img class="rounded-lg" src="./img/docker.svg" alt="" />
               </div>
-             
               <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-red-400 p-4">
                 <img class="rounded-lg" src="./img/git.svg" alt="" />
               </div>
-              <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-slate-100 p-4">
-                <img class="rounded-lg" src="./img/python.svg" alt="" />
-              </div>
-              
             </div>
           </div>
         </div>
@@ -154,9 +148,8 @@
           <p class="text-[12px]">工作经历</p>
           <h1 class="mt-2 text-4xl font-bold">追风赶月</h1>
           <div class="mt-4 md:text-base lg:text-xl">
-            <p class="py-1">🦄 Now. 成都 / 电子科技大学 / 毕业设计ing</p>
-            <p class="py-1">🎉 2024.8 深圳 / PCG 社交产品部 / Vue</p>
-            <p class="py-1">🚗 2024.2 北京 / Momenta / React</p>
+            <p class="py-1">🙌 Now. Nanjing / NNU / OpenGMS / 求职ing...</p>
+            <p class="py-1">🏫 2023.6 Hefei / AHU / Study</p>
           </div>
         </div>
       </div>
@@ -169,10 +162,10 @@
           <div class="music-bg absolute h-full w-full bg-cover bg-center bg-no-repeat"></div>
           <div class="relative z-10 p-4">
             <p class="text-[12px] text-slate-200">音乐喜好</p>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">古典、</h1>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">欧美流行、</h1>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">轻音乐</h1>
-            <p class="text-right text-sm text-slate-100">《Love Stroy》</p>
+            <h1 class="mt-1.5 text-4xl font-bold text-white">流行歌曲</h1>
+            <h1 class="mt-1.5 text-4xl font-bold text-white">R&B</h1>
+            <h1 class="mt-1.5 text-4xl font-bold text-white">民谣</h1>
+            <p class="text-right text-sm text-slate-100">《七里香》</p>
           </div>
         </div>
         <!-- 游戏 -->
@@ -182,8 +175,8 @@
           <div class="game-bg absolute h-full w-full bg-cover bg-center bg-no-repeat"></div>
           <div class="relative z-10 flex h-full flex-col justify-between p-4">
             <p class="text-[12px] text-slate-50">电子竞技</p>
-            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">赛博种田 / FPS</h1>
-            <p class="mt-2 self-end text-right text-sm text-slate-100">守望先锋 / FarmTogether</p>
+            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">RPG / Roguelike</h1>
+            <p class="mt-2 self-end text-right text-sm text-slate-100">暗黑破坏神 / 消逝的光芒</p>
           </div>
         </div>
       </div>
@@ -195,9 +188,9 @@
           <div class="movie-bg absolute h-72 w-full bg-cover bg-center bg-no-repeat"></div>
           <div class="relative z-10 flex h-full flex-col justify-between p-4">
             <p class="text-[12px] text-slate-50">兴趣爱好</p>
-            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">科幻 / <br />动漫影视剧</h1>
+            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">悬疑 / <br />动漫</h1>
             <p class="mt-2 self-end text-right text-sm text-slate-100">
-              “不作恶,不快活！” ——《坏蛋联盟》
+              “纵使我身形俱灭，也定将恶鬼斩杀！” ——《鬼灭之刃》
             </p>
           </div>
         </div>
@@ -205,9 +198,9 @@
         <div class="relative h-72 w-full overflow-hidden rounded-xl md:min-h-[18rem] md:w-[40%]">
           <div class="sport-bg absolute h-72 w-full bg-cover bg-center bg-no-repeat"></div>
           <div class="relative flex h-full flex-col justify-between p-4">
-            <p class="text-[12px] text-slate-50">体育运动</p>
-            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">足球</h1>
-            <p class="mt-2 self-end text-right text-sm text-slate-100">欢迎来到梅西走廊！</p>
+            <p class="text-[12px] text-slate-50">旅行&摄影</p>
+            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">风光</h1>
+            <p class="mt-2 self-end text-right text-sm text-slate-100">所过之处，皆是风景</p>
           </div>
         </div>
       </div>
@@ -222,7 +215,7 @@
   background-image: url('./img/honer.jpg');
 }
 .music-bg {
-  background-image: url('./img/music.jpg');
+  background-image: url('./img/music.png');
   filter: brightness(0.6);
 }
 .game-bg {
@@ -230,11 +223,11 @@
   filter: brightness(0.8);
 }
 .sport-bg {
-  background-image: url('./img/sport.jpg');
+  background-image: url('./img/scenery.png');
   filter: brightness(0.6);
 }
 .movie-bg {
-  background-image: url('./img/movie.jpg');
+  background-image: url('./img/movie.png');
   filter: brightness(0.6);
 }
 .avatar-ping {
