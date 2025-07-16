@@ -2,8 +2,11 @@
   <div class="home flex h-screen w-screen items-center justify-center">
     <EmojiBackground />
     <div class="-mt-10 flex w-screen animate-scale-in-center flex-col px-4 sm:-mt-40 sm:w-[626px]">
-      <ClientOnly>
+      <!-- <ClientOnly>
         <Vue3Lottie :animationData="lottieData" class="w-full sm:w-[626px]" />
+      </ClientOnly> -->
+      <ClientOnly>
+        <div ref="lottieContainer" class="w-full sm:w-[626px]" />
       </ClientOnly>
       <div
         class="relative mt-6 flex w-full flex-col items-center rounded-lg bg-white/85 py-6 text-zinc-800 shadow shadow-black/40 backdrop-blur-sm"
@@ -44,7 +47,8 @@ import { useRouter } from 'vitepress'
 // import { Vue3Lottie } from 'vue3-lottie'
 import lottieData from '../../assets/dora.json'
 
-const Vue3Lottie = defineAsyncComponent(() => import('vue3-lottie'))
+// const Vue3Lottie = defineAsyncComponent(() => import('vue3-lottie'))
+const lottieContainer = ref<HTMLDivElement | null>(null)
 const returnToTopRef = ref<HTMLElement | null>(null)
 
 const router = useRouter()
@@ -52,7 +56,15 @@ const gotoGithub = () => {
   window.open('https://github.com/fangzhuom')
 }
 
-onMounted(() => {
+onMounted(async () => {
+  const lottie = await import('lottie-web')
+  lottie.loadAnimation({
+    container: lottieContainer.value!,
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    animationData: lottieData
+  })
   returnToTopRef.value = document.querySelector('.VPLocalNav.empty.fixed')
   if (returnToTopRef.value) returnToTopRef.value.style.zIndex = '-1000'
 })
